@@ -51,6 +51,6 @@ function newQuote() {
   } while (random === prevRandom);
   prevRandom = random;
 
-  quote.innerHTML = `\"${quotes[random].quote}\"`;
-  author.innerHTML = `\"${quotes[random].author}\"`;
+  quote.innerHTML = `"${quotes[random].quote}"`;
+  author.innerHTML = `--${quotes[random].author}`;
 }
